@@ -20,8 +20,7 @@
 }
 
 .article-list {
-  list-style: circle;
-  list-style-type: circle;
+  list-style: disc;
 }
 
 .article-list li {
@@ -38,11 +37,20 @@
 }
 
 .comments-link {
-
+  color: $blue;
 }
 
-.signup textarea {
+.comments-link:hover {
+  text-decoration: underline;
+}
+
+#email-input {
   border: 1px solid black;
+  width: 69%;
+  height: 35px;
+  text-align: center;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 #opinion-header {
@@ -60,11 +68,12 @@
 }
 
 #signup-btn {
-
+  width: 30%;
 }
 
 #signup-disclaimer {
   font-size: 10px;
   color: $gray;
   text-align: center;
+  margin-top: 10px;
 }
