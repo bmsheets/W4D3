@@ -2327,3 +2327,46 @@ Completed 200 OK in 110ms (Views: 107.1ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.self-22a4e9313d9a1610121fff7cd33c58d777518db0ada263a278f45550daa88b73.css?body=1" for ::1 at 2017-10-25 15:09:56 -0700
 Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-10-25 15:09:56 -0700
+Started GET "/" for ::1 at 2017-10-25 15:28:16 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (2.0ms)
+  Rendered shared/_main_nav.html.erb (7.0ms)
+  Rendered shared/_masthead.html.erb (1.6ms)
+  Rendered shared/_sections_nav.html.erb (1.1ms)
+  Rendered shared/_search_modal.html.erb (1.3ms)
+  Rendered shared/_main_content.html.erb (1.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 143ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-69acc0e932635eb66492e039610c14782d5f3c26e32be57cb2281fba9127455a.css?body=1" for ::1 at 2017-10-25 15:28:16 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-10-25 15:28:16 -0700
+Started GET "/" for ::1 at 2017-10-25 15:32:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.3ms)
+  Rendered shared/_main_nav.html.erb (7.0ms)
+  Rendered shared/_masthead.html.erb (2.6ms)
+  Rendered shared/_sections_nav.html.erb (1.5ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (2.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-10-25 15:32:02 -0700
+Started GET "/" for ::1 at 2017-10-25 15:41:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (1.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-10-25 15:41:30 -0700
