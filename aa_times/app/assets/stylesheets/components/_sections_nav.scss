@@ -1,0 +1,16 @@
+.sections-nav {
+  padding: 10px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav ul {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sections-nav a:hover {
+  background: $light-gray;
+}
