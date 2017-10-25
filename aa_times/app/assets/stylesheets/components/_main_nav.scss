@@ -32,9 +32,9 @@
   font-size: 30px;
 }
 
-.left-nav > ul > li:hover,
-.right-nav > ul > li:last-of-type:hover {
-  color: $lightest-gray;
+.left-nav > ul > li:hover {
+// .right-nav > ul > li:last-of-type:hover {
+  color: $gray;
 }
 
 .left-nav span {
@@ -42,6 +42,6 @@
 }
 
 
-.right-nav i {
-
+.right-nav i:hover {
+  color: $gray;
 }

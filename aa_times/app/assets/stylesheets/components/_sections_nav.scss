@@ -4,7 +4,7 @@
 }
 
 .sections-nav ul {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -13,4 +13,8 @@
 
 .sections-nav a:hover {
   background: $light-gray;
+}
+
+.sections-nav li:last-child {
+  text-decoration: underline;
 }
