@@ -1,0 +1,70 @@
+.main-content {
+  margin: 20px;
+}
+
+.news-article {
+
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+}
+
+.article-body {
+
+}
+
+.article-list {
+  list-style: circle;
+  list-style-type: circle;
+}
+
+.article-list li {
+  margin: 10px;
+}
+
+.author {
+  color: $gray;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 0;
+}
+
+.comments-link {
+
+}
+
+.signup textarea {
+  border: 1px solid black;
+}
+
+#opinion-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#feature-article {
+  font-size: 36px;
+}
+
+#video-warning {
+
+}
+
+#signup-btn {
+
+}
+
+#signup-disclaimer {
+  font-size: 10px;
+  color: $gray;
+  text-align: center;
+}
