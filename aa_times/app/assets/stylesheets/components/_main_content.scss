@@ -2,6 +2,12 @@
   margin: 20px;
 }
 
+.main-content iframe {
+  display: inline-block;
+  width: 100%;
+  height: 240px;
+}
+
 .news-article {
 
 }
@@ -34,6 +40,8 @@
 .subtitle {
   padding: 0;
   margin: 0;
+  text-transform: uppercase;
+  color: $dark-gray;
 }
 
 .comments-link {
@@ -42,6 +50,16 @@
 
 .comments-link:hover {
   text-decoration: underline;
+}
+
+.thumbnail {
+  height: 100px;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 #email-input {
@@ -61,6 +79,7 @@
 
 #feature-article {
   font-size: 36px;
+  font-style: italic;
 }
 
 #video-warning {
@@ -76,4 +95,8 @@
   color: $gray;
   text-align: center;
   margin-top: 10px;
+}
+
+#op-ed-list {
+  font-weight: bold;
 }
